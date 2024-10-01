@@ -1,4 +1,6 @@
 import { Fragment } from "react";
+import React from 'react';
+
 import 'bootstrap-icons/font/bootstrap-icons.css'
 import './EstilosMenu.css'
 import { Link } from "react-router-dom";
