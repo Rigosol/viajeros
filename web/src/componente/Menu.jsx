@@ -27,10 +27,7 @@ function Menu (){
             </ul>
             </div>
 
-        <section className="hero">
-            &nbsp;
-        </section>
-
+      
 
        </body>
        <section></section>

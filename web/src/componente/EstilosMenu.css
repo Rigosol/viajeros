@@ -65,11 +65,5 @@ body{
     width: 150px;
     padding:10px;
 }
-.hero{
-    height: calc(100vh - 80px);
-    background-image: url("../imagenes/nosotros.webp");
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-}
+
 

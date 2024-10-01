@@ -6,7 +6,14 @@ import './EstilosNosotros.css'
 function CuerpoNosotros() {
 
   return (
+
+    
         <div className='cuer-nos'>
+
+            <section className="hero">
+                &nbsp;
+             </section>
+
             <div className='nosotros'>
                 <h1>SOBRE NOSOTROS</h1>
                 <p>Fundada en 2022 por un grupo de entusiastas
@@ -45,6 +52,9 @@ function CuerpoNosotros() {
                 país. 
                 </p>
             </div>
+
+    
+
 
         </div>
 
