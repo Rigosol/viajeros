@@ -2,8 +2,7 @@ import { useState } from 'react'
 import './EstilosNosotros.css'
 
 
-
-function CuerpoNosotros() {
+function NosotrosCuerpo() {
 
   return (
 
@@ -61,4 +60,4 @@ function CuerpoNosotros() {
   );
 }
 
-export default CuerpoNosotros;
+export default NosotrosCuerpo;

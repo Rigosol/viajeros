@@ -1,32 +1,33 @@
 import { Fragment } from "react";
 import 'bootstrap-icons/font/bootstrap-icons.css'
 import './EstilosMenu.css'
+import { Link } from "react-router-dom";
 
-function Menu (){
+const Menu = () =>{
 
     return (
 
         <>
-            <body>
+            <nav className="men">
                 <div className="menu-bar">
-                <h1 className="logo">VIAJEROS <span>.COM</span></h1>
+                <Link href="/" className="logo">VIAJEROS<span>.COM</span></Link>
                 <ul>
-                <li><a href="#">INICIO</a></li>
-                <li><a href="#">NOSOTROS</a></li>
-                <li><a href="#">DESTINOS <i className="bi bi-caret-down"></i> </a>      
+                <li><Link href="/">INICIO</Link></li>
+                <li><Link href="/nosotros">NOSOTROS</Link></li>
+                <li><Link href="/">DESTINOS <i className="bi bi-caret-down"></i> </Link>      
                 <div className="care-dowm">
                     <ul>
-                        <li><a href="#">COSTA</a></li>
-                        <li><a href="#">SIERRA</a></li>
-                        <li><a href="#">SELVA</a></li>
+                        <li><Link href="/">COSTA</Link></li>
+                        <li><Link href="/">SIERRA</Link></li>
+                        <li><Link href="/">SELVA</Link></li>
                     </ul>
                 </div>
                 </li>
-                <li><a href="#">TESTIMONIOS</a></li>
-                <li><a href="#">CONTACTO</a></li>
+                <li><Link href="/">TESTIMONIOS</Link></li>
+                <li><Link href="/">CONTACTO</Link></li>
                 </ul>
                 </div>
-            </body>     
+            </nav>     
        </>
 
     );

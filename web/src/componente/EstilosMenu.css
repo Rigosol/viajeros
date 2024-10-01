@@ -9,7 +9,7 @@
     margin: 0;
     box-sizing: border-box;
 }
-body{
+nav{
     font-family: sans-serif;
 }
 .menu-bar{
@@ -36,14 +36,14 @@ body{
     padding: 10px 30px;
     position: relative;
 }
-.menu-bar ul li a{
+.menu-bar ul li Link{
     color: var(--color-white);
     text-decoration: none;
     font-size: 18px;
 
     transition: all 0.3s;
 }
-.menu-bar ul li a:hover{
+.menu-bar ul li Link:hover{
     color: var(--color-primary);
 }
 .care-dowm{
