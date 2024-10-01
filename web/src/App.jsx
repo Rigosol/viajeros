@@ -1,16 +1,24 @@
 import { useState } from 'react'
+import { BrowserRouter as Router} from 'react-router-dom';
+
 import Menu from './componente/Menu'
-import NosotrosCuerpo from './componente/NosotrosCuerpo'
+
 
 function App() {
  
 
   return (
-    <>
-      <Menu/>
-      <NosotrosCuerpo/>
-    </>
+    <div>
+      <BrowserRouter>
+          <Menu />
+
+          <Router>
+          <Route path="/PaginaNosotros" element={<PaginaNosotros/>} />
+          </Router>
+
+      </BrowserRouter>
+    </div>
   )
 }
 
-export default App
+export default App;
