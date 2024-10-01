@@ -1,6 +1,6 @@
 import { Fragment } from "react";
 import 'bootstrap-icons/font/bootstrap-icons.css'
-import './Nosotros.css'
+import './EstilosMenu.css'
 
 function Menu (){
 
