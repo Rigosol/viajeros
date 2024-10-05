@@ -1,5 +1,5 @@
 import { Fragment } from 'react'
-import { BrowserRouter as Router,Routes, Route} from 'react-router-dom';
+import InicioCuerpo from './componentes/InicioCuerpo'; 
 
 import Menu from './componente/Menu';
 import NosotrosCuerpo from './componente/NosotrosCuerpo';
@@ -7,15 +7,14 @@ import NosotrosCuerpo from './componente/NosotrosCuerpo';
 
 function App() {
  
-  return (
-    
-      <Router>
+  return (   
+      <div>
           <Menu />
             <Routes>
+              <InicioCuerpo/>
               <Route path="/nosotros" element={<NosotrosCuerpo/>} /> 
             </Routes>
-
-      </Router>
+      </div>
   );
 }
 
