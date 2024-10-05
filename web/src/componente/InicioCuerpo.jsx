@@ -1,4 +1,7 @@
 import React from 'react';
+import './EstiloInicio.css'
+
+
 
 const InicioCuerpo = () => {
     return (

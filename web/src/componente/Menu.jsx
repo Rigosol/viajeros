@@ -1,40 +1,40 @@
 import { Fragment } from "react";
-import React from 'react';
-
 import 'bootstrap-icons/font/bootstrap-icons.css'
 import './EstilosMenu.css'
-import { Link } from "react-router-dom";
 
-
-const Menu = () =>{
+function Menu (){
 
     return (
 
         <>
-            <nav className="men">
-                <div className="menu-bar">
-                <Link to="/" className="logo">VIAJEROS<span>.COM</span></Link>
+       <body>
+            <div className="menu-bar">
+            <h1 className="logo">VIAJEROS <span>.COM</span></h1>
+            <ul>
+            <li><a href="#">INICIO</a></li>
+            <li><a href="#">NOSOTROS</a></li>
+            <li><a href="#">DESTINOS <i className="bi bi-caret-down"></i> </a>      
+              <div className="care-dowm">
                 <ul>
-                <li><Link to="/">INICIO</Link></li>
-                <li><Link to="/nosotros">NOSOTROS</Link></li>
-                <li><Link to="/">DESTINOS <i className="bi bi-caret-down"></i> </Link>      
-                <div className="care-dowm">
-                    <ul>
-                        <li><Link to="/">COSTA</Link></li>
-                        <li><Link to="/">SIERRA</Link></li>
-                        <li><Link to="/">SELVA</Link></li>
-                    </ul>
-                </div>
-                </li>
-                <li><Link to="/">TESTIMONIOS</Link></li>
-                <li><Link to="/">CONTACTO</Link></li>
+                    <li><a href="#">COSTA</a></li>
+                    <li><a href="#">SIERRA</a></li>
+                    <li><a href="#">SELVA</a></li>
                 </ul>
-                </div>
-            </nav>     
-       </>
+              </div>
+            </li>
+            <li><a href="#">TESTIMONIOS</a></li>
+            <li><a href="#">CONTACTO</a></li>
+            </ul>
+            </div>
+
+
+       </body>
+              
+        </>
 
     );
 
 }
 
 export default Menu;
+

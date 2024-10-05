@@ -3,20 +3,23 @@ import { Fragment } from 'react'
 import Menu from './componente/Menu';
 import NosotrosCuerpo from './componente/NosotrosCuerpo';
 import InicioCuerpo from './componente/InicioCuerpo';
+import Contacto from './componente/Contacto';
+
+
+
 
 
 function App() {
  
   return (
-    
-     <div>
+      <>
           <Menu />
-            <Routes>
-              <InicioCuerpo/>
-              <Route path="/nosotros" element={<NosotrosCuerpo/>} /> 
-            </Routes>
+          <InicioCuerpo />
+         <NosotrosCuerpo />
+          <Contacto />
+      
 
-    </div>
+        </>
   );
 }
 

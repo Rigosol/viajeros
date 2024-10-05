@@ -1,0 +1,166 @@
+
+.contenedor {
+    position: relative; /* Necesario para que ::before funcione correctamente */
+    width: 30%;
+    margin: 10px auto;
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+    background: url(../imagenes/colca_blog.jpg);
+    background-size: cover;
+    border-radius: 20px;
+    overflow: hidden; /* Asegura que la capa no se salga del borde redondeado */
+}
+
+.contenedor::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(212, 243, 243, 0.671);
+    z-index: 1; 
+}
+
+.fContacto {
+    position: relative; 
+    z-index: 2; 
+    padding: 20px; 
+    color: white; 
+}
+
+.fContacto input[type="text"],
+.fContacto input[type="email"],
+.fContacto textarea {
+    color: gray; 
+    padding: 10px;
+    border-radius: 5px; 
+    width: 100%;
+    margin-bottom: 15px; 
+}
+
+.fContacto input[type="text"]::placeholder,
+.fContacto input[type="email"]::placeholder,
+.fContacto textarea::placeholder {
+    color: #858484;
+}
+
+.fContacto input[type="text"]:focus,
+.fContacto input[type="email"]:focus,
+.fContacto textarea:focus {
+    outline: none; 
+}
+
+.tituloC {
+    margin-top: 30px;
+    text-align: center;
+    font-size: 30pt;
+    font-family: Georgia;
+    font-weight: 800;
+    color: #69218B;
+}
+
+.imagen {
+    width: 50%;
+    padding: 30px;
+    justify-content: center;
+}
+
+.form{
+    padding: 10px 30%;
+}
+
+
+label {
+    color: #000000;
+    font-size: 17px;
+    display: block;
+    margin-top: 12px;
+    margin-bottom: 15px;
+    margin-left: 10px;
+    font-family: Georgia;
+    font-weight: bold;
+}
+
+input,
+textarea {
+    width: 90%;
+    padding: 12px;
+    border-radius: 5px;
+    border: 1px solid #81878A;
+    outline: none;
+    font-family: Georgia;
+}
+
+.content-form{
+    max-width: 60%;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #daf3ff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(197, 226, 238, 0.1);
+}
+
+button {
+    font-size: 13pt;
+    background-color: white;
+    color: #0377BD;
+    border: 1px solid #81878A;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    margin-top: 15px;
+    font-family: Georgia;
+    font-weight: bold;
+}
+
+button:hover {
+    background-color: #168181;
+    color: white;
+}
+
+.viaje {
+    width: 50%;
+    margin-left:40%;
+    height: auto;
+    z-index: 3;
+    border-radius: 30px;
+    position: relative;
+}
+
+.viaje:hover {
+    border-radius: 0;
+}
+
+.iconos {
+    display: flex;
+    padding: 20px 5px;
+    justify-content: space-between;
+    width: 40%;
+}
+
+.iconos img {
+    width: 40px;
+    height: 40px;
+
+}
+.par1 {
+    display: flex;
+    justify-content: center;
+    gap: 20px; 
+    width: 100%;
+}
+.uni{
+   width: 50%;
+}
+.content-form{
+    background-position: center center;
+    height: 900px;
+    background-attachment: fixed;
+    background-size: cover;
+
+}
+.content-form img{
+    width: 100%;
+}
