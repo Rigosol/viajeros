@@ -95,16 +95,7 @@ function Menu() {
           </li>
         </ul>
       </div>
-      <div className="search-container">
-        <form className="search-form">
-          <input 
-            type="text" 
-            className="search-input" 
-            placeholder="Buscar..." 
-          />
-          <button type="submit" className="search-button">Buscar</button>
-        </form>
-      </div>
+     
     </div>
   );
 }
