@@ -5,6 +5,8 @@ import './EstiloInicio.css'
 
 const InicioCuerpo = () => {
     return (
+       <div className='cuerpoPrincipal'>
+
         <div className="inicio-cuerpo">
             <header className="header">
                 <h1>Bienvenidos a Viajeros.COM</h1>
@@ -47,12 +49,10 @@ const InicioCuerpo = () => {
                 </ul>
             </section>
 
-            <footer className="footer">
-                <p>Viajeros La - Tu aventura comienza aquí.</p>
-                <p>Contacto: info@viajerosla.com | Tel: 123-456-789</p>
-            </footer>
+       
+        </div>
         </div>
     );
-};
+}
 
-export default InicioCuerpo 
+export default InicioCuerpo; 
