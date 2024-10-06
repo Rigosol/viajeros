@@ -1,40 +1,112 @@
-import { Fragment } from "react";
-import 'bootstrap-icons/font/bootstrap-icons.css'
-import './EstilosMenu.css'
+import { useState } from "react";
+import { Link } from "react-router-dom";
+import 'bootstrap-icons/font/bootstrap-icons.css'; 
+import './Menu.css';
 
-function Menu (){
+function Menu() {
+  const [activeLink, setActiveLink] = useState("");
 
-    return (
+  const handleClick = (link) => {
+    setActiveLink(link);
+  };
 
-        <>
-       <body>
-            <div className="menu-bar">
-            <h1 className="logo">VIAJEROS <span>.COM</span></h1>
-            <ul>
-            <li><a href="#">INICIO</a></li>
-            <li><a href="#">NOSOTROS</a></li>
-            <li><a href="#">DESTINOS <i className="bi bi-caret-down"></i> </a>      
-              <div className="care-dowm">
-                <ul>
-                    <li><a href="#">COSTA</a></li>
-                    <li><a href="#">SIERRA</a></li>
-                    <li><a href="#">SELVA</a></li>
-                </ul>
-              </div>
-            </li>
-            <li><a href="#">TESTIMONIOS</a></li>
-            <li><a href="#">CONTACTO</a></li>
-            </ul>
+  return (
+    <div className="menu-bar">
+      <div className="logo">
+        <h1>VIAJEROS <span>.COM</span></h1>
+      </div>
+      <div className="menu-center">
+        <ul>
+          <li>
+            <Link 
+              to="/" 
+              className={activeLink === "inicio" ? "active" : ""} 
+              onClick={() => handleClick("inicio")}
+            >
+              INICIO
+            </Link>
+          </li>
+          <li>
+            <Link 
+              to="/nosotros" 
+              className={activeLink === "nosotros" ? "active" : ""} 
+              onClick={() => handleClick("nosotros")}
+            >
+              NOSOTROS
+            </Link>
+          </li>
+          <li>
+            <Link 
+              to="/costas" 
+              className={activeLink === "costas" ? "active" : ""} 
+              onClick={() => handleClick("costas")}
+            >
+              DESTINOS <i className="bi bi-caret-down"></i>
+            </Link>
+            <div className="care-down">
+              <ul>
+                <li>
+                  <Link 
+                    to="/costas" 
+                    className={activeLink === "costa" ? "active" : ""} 
+                    onClick={() => handleClick("costa")}
+                  >
+                    COSTA
+                  </Link>
+                </li>
+                <li>
+                  <Link 
+                    to="/sierra" 
+                    className={activeLink === "sierra" ? "active" : ""} 
+                    onClick={() => handleClick("sierra")}
+                  >
+                    SIERRA
+                  </Link>
+                </li>
+                <li>
+                  <Link 
+                    to="/selva" 
+                    className={activeLink === "selva" ? "active" : ""} 
+                    onClick={() => handleClick("selva")}
+                  >
+                    SELVA
+                  </Link>
+                </li>
+              </ul>
             </div>
-
-
-       </body>
-              
-        </>
-
-    );
-
+          </li>
+          <li>
+            <Link 
+              to="/testimonios" 
+              className={activeLink === "testimonios" ? "active" : ""} 
+              onClick={() => handleClick("testimonios")}
+            >
+              TESTIMONIOS
+            </Link>
+          </li>
+          <li>
+            <Link 
+              to="/contacto" 
+              className={activeLink === "contacto" ? "active" : ""} 
+              onClick={() => handleClick("contacto")}
+            >
+              CONTACTO
+            </Link>
+          </li>
+        </ul>
+      </div>
+      <div className="search-container">
+        <form className="search-form">
+          <input 
+            type="text" 
+            className="search-input" 
+            placeholder="Buscar..." 
+          />
+          <button type="submit" className="search-button">Buscar</button>
+        </form>
+      </div>
+    </div>
+  );
 }
 
 export default Menu;
-
