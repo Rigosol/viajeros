@@ -8,11 +8,27 @@
     gap: 10px;
 }
 
-.cuer-nos p{
+.nosotros p{
+    background-color: aliceblue;
+    width: 80%;
+    margin-left: -40px;
+    text-align: justify;
+    margin-top: 20px;
+    font-size: 13pt; 
+}
+.mision p{
     width: 70%;
     text-align: justify;
     margin-top: 20px;
-    font-size: 13pt;
+    font-size: 13pt; 
+}
+.vision p{
+    background-color: aliceblue;
+    width: 60%;
+    margin-right: -130px;
+    text-align: justify;
+    margin-top: 20px;
+    font-size: 13pt; 
 }
 .cuer-nos h1{
     padding: 10px 30px ;

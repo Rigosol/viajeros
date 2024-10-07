@@ -1,7 +1,7 @@
 * {
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
+   
   }
   
   .container-pantalla {
@@ -113,7 +113,6 @@
   }
   
   .images-blog {
-    height: 300px;
     width: 90%;
     display: flex;
     flex-wrap: wrap;
