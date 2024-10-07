@@ -16,8 +16,8 @@ function Footer() {
             <div id="arriba">
                 <div className="f-izquierdo">
                     <Link to="/" onClick={scrollToTop}>
-                        <img className="flogo" src={logito} alt="Logo"/>
-                        GW TRAVEL
+                       
+                        VIAJEROS.COM
                     </Link>
                     <p>GW Travel es una agencia de turismo que brinda la más alta 
                         experiencia en viajes, y tours a nivel nacional.
