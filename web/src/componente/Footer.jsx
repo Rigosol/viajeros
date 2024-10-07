@@ -19,10 +19,9 @@ function Footer() {
                        
                         VIAJEROS.COM
                     </Link>
-                    <p>GW Travel es una agencia de turismo que brinda la más alta 
+                    <p>Viajeros es una agencia de turismo que brinda la más alta 
                         experiencia en viajes, y tours a nivel nacional.
                     </p>
-                    <img className="redes-iconos" src="" alt=""/>
                 </div>
                 <div className="f-centro">
                     <ul>
@@ -47,9 +46,9 @@ function Footer() {
                     <ul>
                         <li><Link to="/PaginaContacto" onClick={scrollToTop}>CONTACTO</Link>
                             <ul>
-                                <li>+91 987655841</li>
-                                <li>info@gwtravel.com</li>
-                                <li>Av.travel #123</li>
+                                <li>+91 955955841</li>
+                                <li>info@viajeros.com</li>
+                                <li>Jr.travelin #123</li>
                             </ul>
                         </li>
                     </ul>
@@ -59,7 +58,7 @@ function Footer() {
                 <hr/>
             </div>
             <div id="final">
-                <div className="pie"><p>Copyright 2024 GW Travel s.a.c. Todos los derechos reservados</p></div>
+                <div className="pie"><p>Copyright 2024 VIAJEROS.COM s.a.c. Todos los derechos reservados</p></div>
                 <div className="pie"><p>Términos & condiciones | Política de privacidad</p></div>
             </div>
 

@@ -9,22 +9,22 @@
 }
 
 .nosotros p{
-    background-color: aliceblue;
-    width: 80%;
+    
+    width: 50%;
     margin-left: -40px;
     text-align: justify;
     margin-top: 20px;
     font-size: 13pt; 
 }
 .mision p{
-    width: 70%;
+    width: 50%;
     text-align: justify;
     margin-top: 20px;
     font-size: 13pt; 
+
 }
 .vision p{
-    background-color: aliceblue;
-    width: 60%;
+    width: 50%;
     margin-right: -130px;
     text-align: justify;
     margin-top: 20px;
@@ -79,4 +79,5 @@
     width: 100%;
     height: 70vh; 
     object-fit: cover;
+    
 }
