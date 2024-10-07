@@ -19,7 +19,6 @@ function App() {
         <Routes>
           <Route path="/" element={<InicioCuerpo />} />
           <Route path="/nosotros" element={<NosotrosCuerpo />} />
-          
           <Route path="/costas" element={<Costa />} />
           <Route path="/sierra" element={<Sierra />} />
           <Route path="/selva" element={<Selva />} />
