@@ -154,13 +154,16 @@ button:hover {
 .uni{
    width: 50%;
 }
-.content-form{
-    background-position: center center;
-    height: 900px;
-    background-attachment: fixed;
-    background-size: cover;
 
-}
-.content-form img{
-    width: 100%;
+
+.fondoContacto{
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('../public/imagenes/avion.jpg'); 
+    background-size: cover; 
+    background-attachment: fixed;
+    background-position: center; 
+    background-repeat: no-repeat; 
+    color: #333;
 }

@@ -13,15 +13,16 @@
     max-width: 1200px;
     margin: 0 auto;
     padding: 20px;
-    background-color: #fff;
+   
     opacity:1;
   }
   
   .header {
     text-align: center;
     padding: 50px 0;
-    background-color: #007BFF;
+    background-color: #87b6e998;
     color: #fff;
+    border-radius: 25px;
   }
   
   .header h1 {
@@ -32,16 +33,21 @@
   .header p {
     font-size: 1.2rem;
     margin-top: 10px;
+    text-align: center;
+    color: rgb(12, 100, 100);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 25px;
   }
   
   .seccion-destinos {
-    padding: 40px 0;
+    padding: 50px 0;
     text-align: center;
   }
   
   .seccion-destinos h2 {
-    font-size: 2.2rem;
-    margin-bottom: 20px;
+    font-size: 2.7rem;
+    margin-bottom: 50px;
+    color: rgb(51, 28, 28);
   }
   
   .destinos-grid {

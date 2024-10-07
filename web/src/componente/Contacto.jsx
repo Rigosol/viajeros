@@ -28,11 +28,9 @@ const EfectoContacto = () => {
 
     return (
 
-            <Container className="content-form">
-                {/* Añadir la imagen aquí */}
-            <img src="../public/imagenes/avion.jpg" alt="Avión" className="img-fluid mb-3" />
-
+        <div className="fondoContacto">
         
+        <div className="content-form">
             <Form onSubmit={realizarEnvio}>
                 <Form.Group className="form-group">
                     <Form.Label className="w-b">Nombres y apellidos:</Form.Label>
@@ -83,7 +81,8 @@ const EfectoContacto = () => {
                 </Row>
                 <button className="fBoton" type="submit">Enviar</button>
             </Form>
-        </Container>
+            </div>
+            </div>
     );
 }
 

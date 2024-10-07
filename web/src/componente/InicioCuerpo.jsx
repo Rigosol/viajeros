@@ -10,7 +10,7 @@ const InicioCuerpo = () => {
         <div className="inicio-cuerpo">
             <header className="header">
                 <h1>Bienvenidos a Viajeros.COM</h1>
-                <p>Explora el mundo con nosotros y descubre destinos únicos.</p>
+                <p>Explora el mundo con nosotros y descubre destinos únicos</p>
             </header>
 
             <section className="seccion-destinos">
