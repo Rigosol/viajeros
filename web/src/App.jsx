@@ -8,6 +8,7 @@ import Sierra from "./componente/Sierra";
 import Selva from "./componente/Selva";
 import Testimonios from "./componente/Testimonios";
 import Contacto from "./componente/Contacto";
+import Footer from "./componente/Footer";
 
 import './App.css';
 
@@ -26,6 +27,8 @@ function App() {
         
           <Route path="/contacto" element={<Contacto />} />
         </Routes>
+
+        <Footer />
       </div>
     </Router>
   );
