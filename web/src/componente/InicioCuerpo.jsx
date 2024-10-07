@@ -32,7 +32,7 @@ const InicioCuerpo = () => {
                     </div>
                     <div className="destino">
                         <img src="../public/imagenes/trujillo.jpg" alt="Destino 3" />
-                        <h3>Trujullo</h3>
+                        <h3>Trujillo</h3>
                         <p>Sumérgete en la cuna de la civilización mochica, donde las antiguas pirámides de adobe se combinan 
                             con elegantes casonas coloniales. Trujillo te ofrece una experiencia única con sus festivales, 
                             playas cercanas y arqueología fascinante.</p>
