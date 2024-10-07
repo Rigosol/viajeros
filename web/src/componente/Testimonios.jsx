@@ -2,8 +2,8 @@ import { useState } from "react";
 import "./Testimonios.css";
 import mancora from "../imagen/mancora.jpg";
 import mancora2 from "../imagen/mancora2.jpg";
-import imagen3 from "../imagen/imagen3.png";
-import imagen4 from "../imagen/imagen4.png";
+import selva from "../imagen/selva.png";
+import selva2 from "../imagen/selva2.jpg";
 
 import testimonio1 from "../imagen/testimonio1.png";
 import testimonio2 from "../imagen/testimonio2.png";
@@ -61,9 +61,9 @@ function Testimonios() {
             tiene todo el año las mejores promociones para ti.
             <br></br>
             <br></br>
-En Viajeros.com, entendemos que cada viajero es único, por lo que nos esforzamos por ofrecer experiencias personalizadas y memorables 
-que se adapten a tus intereses y presupuesto. Nuestra agencia de viajes se compromete a proporcionar un servicio de alta calidad, desde
- la planificación inicial hasta la ejecución del viaje, para garantizar que cada aspecto de tu experiencia sea excepcional.
+               En Viajeros.com, entendemos que cada viajero es único, por lo que nos esforzamos por ofrecer experiencias personalizadas y memorables 
+              que se adapten a tus intereses y presupuesto. Nuestra agencia de viajes se compromete a proporcionar un servicio de alta calidad, desde
+              la planificación inicial hasta la ejecución del viaje, para garantizar que cada aspecto de tu experiencia sea excepcional.
           </p>
         </div>
       </div>
@@ -89,7 +89,7 @@ No pierdas la oportunidad de descubrir el mundo con la agencia de viajes de conf
         <div className="content-img">
           <img
             className="img3"
-            src={imagen3}
+            src={selva}
             alt="Imagen 3"
             style={{ opacity: visible.img3 ? 1 : 0 }}
             onMouseOver={() => {
@@ -101,7 +101,7 @@ No pierdas la oportunidad de descubrir el mundo con la agencia de viajes de conf
           />
           <img
             className="img4"
-            src={imagen4}
+            src={selva2}
             alt="Imagen 4"
             style={{ opacity: visible.img4 ? 1 : 0 }}
             onMouseOver={() => {
