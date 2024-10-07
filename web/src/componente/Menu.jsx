@@ -13,7 +13,7 @@ function Menu() {
   return (
     <div className="menu-bar">
       <div className="logo">
-        <h1>VIAJEROS <span>.COM</span></h1>
+        <h1 className="logito">VIAJEROS <span>.COM</span></h1>
       </div>
       <div className="menu-center">
         <ul>

@@ -22,7 +22,7 @@ const Selva = () => {
   return (
     <div className="page-container">
       <div className="turismo-container">
-        <h1>Descubre la Selva Peruana</h1>
+        <h1 className='titulo'>Descubre la Selva Peruana</h1>
         <p>Explora los paisajes tropicales, la biodiversidad y la cultura amazónica de la selva del Perú.</p>
         
         <div className="destinations-grid">

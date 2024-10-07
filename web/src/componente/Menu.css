@@ -5,10 +5,14 @@
     background-color: #001f3f;
     padding: 10px 20px;
   }
-  
+  .logito{
+    color: aqua;
+    
+  }
+
   .logo {
     color: white; 
-    font-size: 24px;
+    font-size: 22px;
   }
   
   .logo span {
@@ -40,7 +44,7 @@
   .menu-center ul li a {
     text-decoration: none;
     color: rgb(255, 255, 255); 
-    font-size: 18px;
+    font-size: 22px;
     padding: 5px 10px;
     transition: background-color 0.3s ease;
   }
@@ -55,10 +59,7 @@
     padding: 10px 15px;
     
   }
-   
-  .care-down ul {
-    display: none; 
-  }
+  
   
   .care-down ul {
     display: none; 

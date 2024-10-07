@@ -1,7 +1,6 @@
 import React, { useState } from 'react';
 import './Turismo.css';
 
-// Asegúrate de que las rutas son correctas según la estructura del proyecto
 import mancora from '../imagenes/costa_mancora.jpg';
 import paracas from '../imagenes/costa_paracas.jpg';
 import lima from '../imagenes/costa_lima.jpg';
@@ -22,7 +21,8 @@ const Costa = () => {
   return (
     <div className="page-container">
       <div className="turismo-container">
-        <h1>Descubre la Costa Peruana</h1>
+     
+        <h1 className='titulo'>Descubre la Costa Peruana</h1>
         <p>Explora las hermosas playas, ciudades históricas y maravillas naturales de la costa de Perú.</p>
         
         <div className="destinations-grid">

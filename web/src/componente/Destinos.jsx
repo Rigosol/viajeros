@@ -3,7 +3,7 @@ import { Routes, Route, NavLink } from 'react-router-dom';
 import Costa from './Costa';
 import Sierra from './Sierra';
 import Selva from './Selva';
-import './Destinos.css';
+
 
 const Destinos = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);

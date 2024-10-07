@@ -7,8 +7,7 @@
     padding: 2rem 1rem;
     top: 50%;
     left: 0%;
-    transform: translate(40%, 0%);
-  
+   
   }
   
   .turismo-container {
@@ -20,11 +19,37 @@
     padding: 2rem;
     text-align: justify;
   }
-  
-  h1 {
-    color: #0077be;
+  .turismo-container p{
+    text-align: center;
+  }
+
+  .titulo {
+    height: 24px;
+    padding: 1em;
+    color: #5a30f0;
+    border: none;
+    display: flex;
+    justify-content: center;
     text-align: center;
     margin-bottom: 1rem;
+
+    animation: shaking 2s infinite;
+  }
+
+
+  @keyframes shaking {
+    10% {
+      transform: scale(1.05) rotate(-5deg);
+    }   
+    20% {
+      transform: scale(1.05) rotate(5deg);
+    }  
+    30% {
+      transform: scale(1.05) rotate(5deg);
+    }       
+    40% {
+      transform: none;
+    }    
   }
   
   .destinations-grid {

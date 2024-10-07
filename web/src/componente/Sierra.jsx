@@ -22,7 +22,7 @@ const Sierra = () => {
   return (
     <div className="page-container">
       <div className="turismo-container">
-        <h1>Descubre la Sierra Peruana</h1>
+        <h1 className='titulo'>Descubre la Sierra Peruana</h1>
         <p>Explora los hermosos paisajes, ciudades históricas y maravillas naturales de la sierra de Perú.</p>
         
         <div className="destinations-grid">

@@ -8,6 +8,7 @@ import Sierra from "./componente/Sierra";
 import Selva from "./componente/Selva";
 //import Testimonios from "./componente/Testimonios";
 import Contacto from "./componente/Contacto";
+
 import './App.css';
 
 function App() {
@@ -18,6 +19,7 @@ function App() {
         <Routes>
           <Route path="/" element={<InicioCuerpo />} />
           <Route path="/nosotros" element={<NosotrosCuerpo />} />
+          
           <Route path="/costas" element={<Costa />} />
           <Route path="/sierra" element={<Sierra />} />
           <Route path="/selva" element={<Selva />} />
