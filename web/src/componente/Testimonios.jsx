@@ -1,7 +1,7 @@
 import { useState } from "react";
 import "./Testimonios.css";
-import imagen1 from "../imagen/imagen1.png";
-import imagen2 from "../imagen/imagen2.png";
+import mancora from "../imagen/mancora.jpg";
+import mancora2 from "../imagen/mancora2.jpg";
 import imagen3 from "../imagen/imagen3.png";
 import imagen4 from "../imagen/imagen4.png";
 
@@ -25,7 +25,7 @@ function Testimonios() {
         <div className="content-img">
           <img
             className="img1"
-            src={imagen1}
+            src={mancora}
             alt="Desarrollo Web 1"
             style={{ opacity: visible.img1 ? 1 : 0 }}
             onMouseOver={() => {
@@ -37,7 +37,7 @@ function Testimonios() {
           />
           <img
             className="img2"
-            src={imagen2}
+            src={mancora2}
             alt="Desarrollo Web 2"
             style={{ opacity: visible.img2 ? 1 : 0 }}
             onMouseOver={() => {
@@ -49,7 +49,7 @@ function Testimonios() {
           />
         </div>
         <div className="content-text">
-          <p className="titulo">¿ Estás buscando una aventura ?</p>
+          <h1 className="titulo3">¿ Estás buscando una aventura ?</h1>
           <p className="descripcion">
             Por supuesto que Viajeros.com no podía faltar entre las principales
             agencias de viaje en Perú. En nuestra agencia conocerás los mejores
