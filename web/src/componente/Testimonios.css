@@ -69,14 +69,17 @@
   }
   
    .titulo2 {
-    
-    margin: 70px 0px 0px 100px;
     font-size: 30px;
-    width: 50%;
     text-align: center;
-    color: #471d1d;
-    text-shadow: 20px 10px 10px #f7f7f78e, 0px 0px 10px #f7f31cea,
-      0px 0px 10px hsl(60, 2%, 62%);
+    color: #e00e0e;
+    padding: 20px;
+    text-shadow: 20px 10px 10px #cae919, 0px 0px 10px #ece908,
+      0px 0px 10px hsl(63, 83%, 44%);
+    margin: 70px 0px 0px 100px;
+    width: 50%;
+   
+    
+  
   }
   .content-text2 p{
     font-family: Georgia, 'Times New Roman', Times, serif;
