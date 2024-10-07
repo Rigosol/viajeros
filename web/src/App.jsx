@@ -6,7 +6,7 @@ import NosotrosCuerpo from "./componente/NosotrosCuerpo";
 import Costa from "./componente/Costa";
 import Sierra from "./componente/Sierra";
 import Selva from "./componente/Selva";
-//import Testimonios from "./componente/Testimonios";
+import Testimonios from "./componente/Testimonios";
 import Contacto from "./componente/Contacto";
 import './App.css';
 
@@ -21,7 +21,8 @@ function App() {
           <Route path="/costas" element={<Costa />} />
           <Route path="/sierra" element={<Sierra />} />
           <Route path="/selva" element={<Selva />} />
-
+          <Route path="/Testimonios" element={<Testimonios />} />
+        
           <Route path="/contacto" element={<Contacto />} />
         </Routes>
       </div>
