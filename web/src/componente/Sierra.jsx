@@ -11,6 +11,7 @@ import huaraz from '../imagenes/sierra_huaraz.jpg';
 import jauja from '../imagenes/sierra_jauja.jpg';
 import huayllay from '../imagenes/sierra_huayllay.jpg';
 import puno from '../imagenes/sierra_puno.jpg';
+import costaAudio from '../Audio/Sierra.mp3';
 
 const Sierra = () => {
   const [selectedImage, setSelectedImage] = useState(null);
@@ -22,6 +23,12 @@ const Sierra = () => {
   return (
     <div className="page-container">
       <div className="turismo-container">
+        {/* Audio de la Sierra Peruana */}
+        <audio controls className="audio-control">
+          <source src={costaAudio} type="audio/mp3" />
+          Tu navegador no soporta el elemento de audio.
+        </audio>
+
         <h1 className='titulo'>Descubre la Sierra Peruana</h1>
         <p>Explora los hermosos paisajes, ciudades históricas y maravillas naturales de la sierra de Perú.</p>
         

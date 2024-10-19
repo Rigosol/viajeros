@@ -11,6 +11,7 @@ import sanMartin from '../imagenes/selva_sanMartin.jpg';
 import manu from '../imagenes/selva_manu.jpg';
 import tingoMaria from '../imagenes/selva_tingoMaria.jpg';
 import chachapoyas from '../imagenes/selva_chachapoyas.jpg';
+import costaAudio from '../Audio/Selva.mp3';
 
 const Selva = () => {
   const [selectedImage, setSelectedImage] = useState(null);
@@ -22,6 +23,12 @@ const Selva = () => {
   return (
     <div className="page-container">
       <div className="turismo-container">
+        {/* Audio de la Selva Peruana */}
+        <audio controls className="audio-control">
+          <source src={costaAudio} type="audio/mp3" />
+          Tu navegador no soporta el elemento de audio.
+        </audio>
+
         <h1 className='titulo'>Descubre la Selva Peruana</h1>
         <p>Explora los paisajes tropicales, la biodiversidad y la cultura amazónica de la selva del Perú.</p>
         
