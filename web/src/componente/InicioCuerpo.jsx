@@ -6,12 +6,17 @@ import './EstiloInicio.css'
 const InicioCuerpo = () => {
     return (
        <div className='cuerpoPrincipal'>
-
+        
         <div className="inicio-cuerpo">
             <header className="header">
                 <h1>Bienvenidos a Viajeros.COM</h1>
                 <p>Explora el mundo con nosotros y descubre destinos únicos</p>
             </header>
+            
+            <div className="videoBlog">
+            <div class="ratio ratio-16x9">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/Yw8foJOadQw?si=jPEDJuz1thGvlOgj" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            </div>
 
             <section className="seccion-destinos">
                 <h2>Destinos Populares</h2>
@@ -48,6 +53,7 @@ const InicioCuerpo = () => {
                     <li>Ofertas exclusivas para viajes en grupo</li>
                 </ul>
             </section>
+        </div>
 
        
         </div>
