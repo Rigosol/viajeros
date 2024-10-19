@@ -111,3 +111,23 @@
   .reserve-button:hover {
     background-color: #4a25d0; /* Color más oscuro al pasar el cursor */
   }
+
+  .reserve-button {
+    display: block;
+    width: 100%;
+    padding: 0.5rem;
+    margin-top: 0.5rem;
+    background-color: #5a30f0; /* Color original */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+    text-align: center;
+    transition: background-color 0.3s ease; /* Suaviza la transición del color */
+  }
+  
+  .reserve-button:hover {
+    background-color: #ff6347; /* Nuevo color cuando pases el mouse */
+  }
+  
