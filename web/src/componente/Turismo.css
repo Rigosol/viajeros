@@ -131,3 +131,8 @@
     background-color: #ff6347; /* Nuevo color cuando pases el mouse */
   }
   
+  .audio-control {
+    display: block;
+    margin: 0 auto 2rem; /* Centrado horizontal con margen inferior */
+  }
+  

@@ -10,6 +10,7 @@ import huacachina from '../imagenes/costa_huacachina.jpg';
 import nazca from '../imagenes/costa_nazca.jpg';
 import caral from '../imagenes/costa_caral.jpg';
 import chiclayo from '../imagenes/costa_chiclayo.jpg';
+import costaAudio from '../Audio/Costa.mp3'; // Importa el audio
 
 const Costa = () => {
   const [selectedImage, setSelectedImage] = useState(null);
@@ -21,7 +22,13 @@ const Costa = () => {
   return (
     <div className="page-container">
       <div className="turismo-container">
-     
+        
+        {/* Audio de la Costa Peruana */}
+        <audio controls className="audio-control">
+          <source src={costaAudio} type="audio/mp3" />
+          Tu navegador no soporta el elemento de audio.
+        </audio>
+
         <h1 className='titulo'>Descubre la Costa Peruana</h1>
         <p>Explora las hermosas playas, ciudades históricas y maravillas naturales de la costa de Perú.</p>
         
