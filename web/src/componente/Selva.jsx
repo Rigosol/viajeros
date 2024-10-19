@@ -38,6 +38,7 @@ const Selva = () => {
             <p><strong>Ubicación:</strong> Loreto, Amazonía peruana</p>
             <p><strong>Descripción:</strong> La ciudad más grande de la Amazonía peruana, rodeada por ríos y conocida por su biodiversidad.</p>
             <p><strong>Actividades:</strong> Visita a la Reserva Nacional Pacaya-Samiria, paseos en bote por el Amazonas, exploración de mercados flotantes.</p>
+            <button className="reserve-button">Reservar Ahora</button>
           </section>
 
           {/* Tarapoto */}
@@ -52,6 +53,7 @@ const Selva = () => {
             <p><strong>Ubicación:</strong> San Martín, región amazónica</p>
             <p><strong>Descripción:</strong> Ciudad rodeada de montañas y cataratas, ideal para el turismo de aventura.</p>
             <p><strong>Actividades:</strong> Senderismo, visitas a cascadas, tours de naturaleza, turismo ecológico.</p>
+            <button className="reserve-button">Reservar Ahora</button>
           </section>
 
           {/* Pucallpa */}
@@ -66,6 +68,7 @@ const Selva = () => {
             <p><strong>Ubicación:</strong> Ucayali, región amazónica</p>
             <p><strong>Descripción:</strong> Una ciudad ribereña conectada al mundo por el río Ucayali, con rica flora y fauna.</p>
             <p><strong>Actividades:</strong> Paseos en bote, visitas a lagos y reservas naturales, ecoturismo.</p>
+            <button className="reserve-button">Reservar Ahora</button>
           </section>
 
           {/* Reserva Nacional Tambopata */}
@@ -80,6 +83,7 @@ const Selva = () => {
             <p><strong>Ubicación:</strong> Madre de Dios, Amazonía peruana</p>
             <p><strong>Descripción:</strong> Un refugio de biodiversidad donde la naturaleza florece en su máxima expresión.</p>
             <p><strong>Actividades:</strong> Observación de fauna y flora, safaris de vida silvestre, visitas a collpas de guacamayos.</p>
+            <button className="reserve-button">Reservar Ahora</button>
           </section>
 
           {/* Oxapampa */}
@@ -94,6 +98,7 @@ const Selva = () => {
             <p><strong>Ubicación:</strong> Pasco, zona de transición entre la sierra y la selva</p>
             <p><strong>Descripción:</strong> Una ciudad con influencia austro-alemana rodeada de naturaleza exuberante.</p>
             <p><strong>Actividades:</strong> Senderismo, visitas a reservas naturales, exploración de cavernas.</p>
+            <button className="reserve-button">Reservar Ahora</button>
           </section>
 
           {/* San Martín */}
@@ -108,6 +113,7 @@ const Selva = () => {
             <p><strong>Ubicación:</strong> San Martín, región amazónica</p>
             <p><strong>Descripción:</strong> Una región rica en cultura y paisajes naturales, con imponentes montañas y selva tropical.</p>
             <p><strong>Actividades:</strong> Rutas de naturaleza, visitas a comunidades locales, turismo de aventura.</p>
+            <button className="reserve-button">Reservar Ahora</button>
           </section>
 
           {/* Manu */}
@@ -122,6 +128,7 @@ const Selva = () => {
             <p><strong>Ubicación:</strong> Cusco y Madre de Dios, Amazonía peruana</p>
             <p><strong>Descripción:</strong> Reserva biosfera mundialmente conocida por su biodiversidad.</p>
             <p><strong>Actividades:</strong> Observación de vida silvestre, visitas a reservas naturales, exploración de la selva.</p>
+            <button className="reserve-button">Reservar Ahora</button>
           </section>
 
           {/* Tingo María */}
@@ -136,6 +143,7 @@ const Selva = () => {
             <p><strong>Ubicación:</strong> Huánuco, selva alta peruana</p>
             <p><strong>Descripción:</strong> Ciudad conocida por sus impresionantes paisajes montañosos y la cueva de las lechuzas.</p>
             <p><strong>Actividades:</strong> Exploración de cavernas, paseos en bote, ecoturismo.</p>
+            <button className="reserve-button">Reservar Ahora</button>
           </section>
 
           {/* Chachapoyas */}
@@ -150,6 +158,7 @@ const Selva = () => {
             <p><strong>Ubicación:</strong> Amazonas, región nororiental</p>
             <p><strong>Descripción:</strong> Ciudad conocida por la fortaleza de Kuélap y su rica historia preincaica.</p>
             <p><strong>Actividades:</strong> Visitas a sitios arqueológicos, senderismo en la selva, observación de aves.</p>
+            <button className="reserve-button">Reservar Ahora</button>
           </section>
         </div>
       </div>

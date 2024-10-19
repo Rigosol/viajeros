@@ -38,6 +38,7 @@ const Sierra = () => {
             <p><strong>Ubicación:</strong> Sur de Perú</p>
             <p><strong>Descripción:</strong> La Ciudad Blanca, con su hermosa arquitectura colonial y el impresionante Cañón del Colca.</p>
             <p><strong>Actividades:</strong> Turismo en el Cañón del Colca, visitas a museos y conventos coloniales, degustación de la gastronomía local.</p>
+            <button className="reserve-button">Reservar Ahora</button>
           </section>
 
           {/* Ayacucho */}
@@ -52,6 +53,7 @@ const Sierra = () => {
             <p><strong>Ubicación:</strong> Centro-sur de Perú</p>
             <p><strong>Descripción:</strong> Famosa por sus 33 iglesias coloniales y las celebraciones de Semana Santa más grandes del Perú.</p>
             <p><strong>Actividades:</strong> Recorridos históricos, visitas a iglesias coloniales, participación en festividades religiosas.</p>
+            <button className="reserve-button">Reservar Ahora</button>
           </section>
 
           {/* Cumbemayo - Cajamarca */}
@@ -66,6 +68,7 @@ const Sierra = () => {
             <p><strong>Ubicación:</strong> Región de Cajamarca</p>
             <p><strong>Descripción:</strong> Un enigmático complejo arqueológico con canalizaciones de piedra, parte del misterioso pasado de Cajamarca.</p>
             <p><strong>Actividades:</strong> Senderismo, exploración arqueológica, fotografía de paisajes naturales.</p>
+            <button className="reserve-button">Reservar Ahora</button>
           </section>
 
           {/* Cusco */}
@@ -80,6 +83,7 @@ const Sierra = () => {
             <p><strong>Ubicación:</strong> Sur de Perú</p>
             <p><strong>Descripción:</strong> Capital del Imperio Inca, hogar de Machu Picchu y el Valle Sagrado. Historia, cultura y belleza natural en su máximo esplendor.</p>
             <p><strong>Actividades:</strong> Visitas a Machu Picchu, exploración del Valle Sagrado, tours históricos por la ciudad.</p>
+            <button className="reserve-button">Reservar Ahora</button>
           </section>
 
           {/* Huancayo */}
@@ -94,6 +98,7 @@ const Sierra = () => {
             <p><strong>Ubicación:</strong> Región Junín, Valle del Mantaro</p>
             <p><strong>Descripción:</strong> El corazón del Valle del Mantaro, con hermosos paisajes y tradición agrícola.</p>
             <p><strong>Actividades:</strong> Recorridos por el Valle del Mantaro, visita a ferias agrícolas, tours a artesanías locales.</p>
+            <button className="reserve-button">Reservar Ahora</button>
           </section>
 
           {/* Huaraz */}
@@ -108,6 +113,7 @@ const Sierra = () => {
             <p><strong>Ubicación:</strong> Región Áncash</p>
             <p><strong>Descripción:</strong> Puerta de entrada a la Cordillera Blanca y el Parque Nacional Huascarán, ideal para montañismo y senderismo.</p>
             <p><strong>Actividades:</strong> Montañismo, senderismo, visitas a lagunas y glaciares.</p>
+            <button className="reserve-button">Reservar Ahora</button>
           </section>
 
           {/* Jauja */}
@@ -122,6 +128,7 @@ const Sierra = () => {
             <p><strong>Ubicación:</strong> Región Junín</p>
             <p><strong>Descripción:</strong> Conocida por su clima templado, lagunas y como una de las ciudades más antiguas de la sierra central del Perú.</p>
             <p><strong>Actividades:</strong> Pesca en lagunas, visitas a monumentos históricos, recorridos por paisajes naturales.</p>
+            <button className="reserve-button">Reservar Ahora</button>
           </section>
 
           {/* Huayllay - Cerro de Pasco */}
@@ -136,6 +143,7 @@ const Sierra = () => {
             <p><strong>Ubicación:</strong> Región Pasco</p>
             <p><strong>Descripción:</strong> Parque Nacional de Huayllay, conocido por sus impresionantes formaciones rocosas y su historia geológica única.</p>
             <p><strong>Actividades:</strong> Exploración geológica, fotografía de formaciones rocosas, caminatas al aire libre.</p>
+            <button className="reserve-button">Reservar Ahora</button>
           </section>
 
           {/* Puno */}
@@ -150,6 +158,7 @@ const Sierra = () => {
             <p><strong>Ubicación:</strong> Región Puno</p>
             <p><strong>Descripción:</strong> Con el majestuoso Lago Titicaca, el lago navegable más alto del mundo, y las islas flotantes de los Uros.</p>
             <p><strong>Actividades:</strong> Paseos en bote por el Lago Titicaca, visitas a las islas flotantes, experiencias culturales con los Uros.</p>
+            <button className="reserve-button">Reservar Ahora</button>
           </section>
         </div>
       </div>

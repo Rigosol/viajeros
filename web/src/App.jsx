@@ -3,7 +3,7 @@ import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import Menu from "./componente/Menu";
 import InicioCuerpo from "./componente/InicioCuerpo";
 import NosotrosCuerpo from "./componente/NosotrosCuerpo";
-import Costa from "./componente/Costa";
+import Costa from "./componente/Costas";
 import Sierra from "./componente/Sierra";
 import Selva from "./componente/Selva";
 import Testimonios from "./componente/Testimonios";

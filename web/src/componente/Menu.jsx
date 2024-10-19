@@ -48,8 +48,8 @@ function Menu() {
                 <li>
                   <Link 
                     to="/costas" 
-                    className={activeLink === "costa" ? "active" : ""} 
-                    onClick={() => handleClick("costa")}
+                    className={activeLink === "costas" ? "active" : ""} 
+                    onClick={() => handleClick("costas")}
                   >
                     COSTA
                   </Link>
