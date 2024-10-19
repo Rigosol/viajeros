@@ -1,109 +1,127 @@
 .cuerpoPrincipal {
-    font-family: 'Arial', sans-serif;
-    margin: 0;
-    padding: 0;
-    background-image: url('../public/imagenes/playa.jpg'); 
-    background-size: cover; 
-    background-attachment: fixed;
-    background-position: center; 
-    background-repeat: no-repeat; 
-    color: #333;
-  }
-  .inicio-cuerpo {
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 20px;
-   
-    opacity:1;
-  }
-  
-  .header {
-    text-align: center;
-    padding: 50px 0;
-    background-color: #87b6e998;
-    color: #fff;
-    border-radius: 25px;
-  }
-  
-  .header h1 {
-    margin: 0;
-    font-size: 3rem;
-  }
-  
-  .header p {
-    font-size: 1.2rem;
-    margin-top: 10px;
-    text-align: center;
-    color: rgb(12, 100, 100);
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: 25px;
-  }
-  
-  .seccion-destinos {
-    padding: 50px 0;
-    text-align: center;
-  }
-  
-  .seccion-destinos h2 {
-    font-size: 2.7rem;
-    margin-bottom: 50px;
-    color: rgb(51, 28, 28);
-  }
-  
-  .destinos-grid {
-    display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
-  }
-  
-  .destino {
-    background-color: #f9f9f9;
-    padding: 20px;
-    margin: 10px;
-    width: 30%;
-    border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    transition: transform 0.3s ease;
-  }
-  
-  .destino:hover {
-    transform: scale(1.05);
-  }
-  
-  .destino img {
-    width: 100%;
-    border-radius: 8px;
-    margin-bottom: 15px;
-  }
-  
-  .destino h3 {
-    font-size: 1.5rem;
-    margin-bottom: 10px;
-  }
-  
-  .destino p {
-    font-size: 1rem;
-    color: #555;
-  }
-  
-  .seccion-servicios {
-    background-color: #f0f0f0;
-    padding: 40px 0;
-    text-align: center;
-  }
-  
-  .seccion-servicios h2 {
-    font-size: 2rem;
-    margin-bottom: 20px;
-  }
-  
-  .seccion-servicios ul {
-    list-style-type: none;
-    padding: 0;
-  }
-  
-  .seccion-servicios ul li {
-    font-size: 1.1rem;
-    margin: 10px 0;
-    color: #555;
-  }
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-image: url('../public/imagenes/playa.jpg'); 
+  background-size: cover; 
+  background-attachment: fixed;
+  background-position: center; 
+  background-repeat: no-repeat; 
+  color: #333;
+}
+.inicio-cuerpo {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+ 
+  opacity:1;
+}
+
+.header {
+  text-align: center;
+  padding: 50px 0;
+  background-color: #87b6e998;
+  color: #fff;
+  border-radius: 25px;
+}
+
+.header h1 {
+  margin: 0;
+  font-size: 3rem;
+}
+
+.header p {
+  height: 30px;
+  font-size: 1.2rem;
+  margin-top: 10px;
+  text-align: center;
+  color: rgb(12, 100, 100);
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 25px;
+}
+
+.seccion-destinos {
+  padding: 50px 0;
+  text-align: center;
+}
+
+.seccion-destinos h2 {
+  font-size: 2.7rem;
+  margin-bottom: 50px;
+  color: rgb(51, 28, 28);
+}
+
+.destinos-grid {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.destino {
+  background-color: #f9f9f9;
+  padding: 20px;
+  margin: 10px;
+  width: 30%;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+}
+
+.destino:hover {
+  transform: scale(1.05);
+}
+
+.destino img {
+  width: 100%;
+  border-radius: 8px;
+  margin-bottom: 15px;
+}
+
+.destino h3 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+
+.destino p {
+  font-size: 1rem;
+  color: #555;
+}
+
+.seccion-servicios {
+  background-color: #f0f0f0;
+  width: 800px;
+  padding:40px 0;
+  text-align: center;
+}
+
+.seccion-servicios h2 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+.seccion-servicios ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.seccion-servicios ul li {
+  font-size: 1.1rem;
+  margin: 10px 0;
+  color: #555;
+}
+
+.videoBlog{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.ratio{
+  width: 60%;
+  height: 400px;
+  box-shadow: -10px 0px 50px 30px rgba(45, 0, 248, 0.212);
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
